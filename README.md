@@ -41,7 +41,6 @@ Find out device IP address
 ```
 $ ifconfig
 ```
-<img src="./figures/img1.png" width="100" height="100">
 ![img1](figures/img1.png)
 ### Phone Settings
 Go to Wi-Fi and long press the network, this will open up network settings. 
