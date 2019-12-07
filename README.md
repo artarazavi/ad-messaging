@@ -47,13 +47,13 @@ Go to Wi-Fi and long press the network, this will open up network settings.
 On this window choose Modify network.  
 Enter the IP address obtained earlier and set the port to be 8080 then click save.  
 [figure](figures/img2.png)  
-## Phone Browser
+### Phone Browser
 Visit mitm.it  
 [figure](figures/img5.png)  
 Choose Android.  
 Give the certificate a name then click Ok.  
 [figure](figures/img6.png)  
-## ProxyDroid
+### ProxyDroid
 Enter the IP address and set the port to 8080  
 [figure](figures/img3.png)  
 Enable DNS Proxy  
