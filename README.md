@@ -49,13 +49,13 @@ Enter the IP address obtained earlier and set the port to be 8080 then click sav
 <img src="figures/img2.png" height="50%" width="50%"/>
 ## Phone Browser
 Visit mitm.it
-<img src="figures/img.png" height="50%" width="50%"/>
+<img src="figures/img5.png" height="50%" width="50%"/>
 Choose Android.  
 Give the certificate a name then click Ok.  
 <img src="figures/img6.png" height="50%" width="50%"/>
 ## ProxyDroid
 Enter the IP address and set the port to 8080
-<img src="figures/im3.png" height="50%" width="50%"/>
+<img src="figures/img3.png" height="50%" width="50%"/>
 Enable DNS Proxy
 <img src="figures/img4.png" height="50%" width="50%"/>
 Then turn on the Proxy Switch
