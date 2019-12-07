@@ -21,7 +21,7 @@ Setup sdcard access
 $ pkg update && pkg install nano
 $ nano start-ubuntu.sh
 ``` 
-and uncomment this line:
+and uncomment this line to gain access to sdcard:
 ```
 #command+=" -b /sdcard"
 ``` 
@@ -59,3 +59,15 @@ Enter the IP address and set the port to 8080
 Enable DNS Proxy
 ![img4](figures/img4.png)
 Then turn on the Proxy Switch
+
+## Scripting With MitmProxy 
+Get the add scraping scripts from the scripts folder in the repository and download them to your phone
+```
+$ adb push mitmscript.py sdcard
+$ adb push dbHelper.py sdcard
+```
+Open up Termux and start the VM then navigate to the sdcard
+```
+$ cd ../../sdcard
+$ mitmdump -s mitmscript.py
+```
