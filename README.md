@@ -66,7 +66,7 @@ Get the add scraping scripts from the scripts folder in the repository and downl
 $ adb push mitmscript.py sdcard
 $ adb push dbHelper.py sdcard
 ```
-Open up Termux and start the VM then navigate to the sdcard
+Open up Termux then navigate to the sdcard and start the VM 
 ```
 $ cd ../../sdcard
 $ mitmdump -s mitmscript.py
