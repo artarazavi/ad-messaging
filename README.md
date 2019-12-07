@@ -21,11 +21,11 @@ and uncomment this line:
 ```
 #command+=" -b /sdcard"
 ``` 
-Then start the VM\
+Then start the VM
 ```
 $ ./start-ubuntu.sh
 ``` 
-Inside the VM intall MitmProxy
+Inside the VM install MitmProxy
 ```apt update
 apt install python3-pip
 pip3 install mitmproxy
