@@ -12,12 +12,12 @@ Click choose then pick Ubuntu (recommended for beginner)
 ```
 $ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
 ``` 
-Setup sdcard access\
+Setup sdcard access
 ```
 pkg update && pkg install nano
 nano start-ubuntu.sh
 ``` 
-and uncomment this line:\
+and uncomment this line:
 ```
 #command+=" -b /sdcard"
 ``` 
@@ -25,7 +25,7 @@ Then start the VM\
 ```
 $ ./start-ubuntu.sh
 ``` 
-Inside the VM intall MitmProxy\
+Inside the VM intall MitmProxy
 ```apt update
 apt install python3-pip
 pip3 install mitmproxy
