@@ -12,10 +12,14 @@ Click choose then pick Ubuntu (recommended for beginner)
 ```
 $ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
 ``` 
+Install Network Tools
+```
+$ pkg install net-tools
+```
 Setup sdcard access
 ```
-pkg update && pkg install nano
-nano start-ubuntu.sh
+$ pkg update && pkg install nano
+$ nano start-ubuntu.sh
 ``` 
 and uncomment this line:
 ```
@@ -27,7 +31,14 @@ $ ./start-ubuntu.sh
 ``` 
 Inside the VM install MitmProxy
 ```apt update
-apt install python3-pip
-pip3 install mitmproxy
+$ apt install python3-pip
+$ pip3 install mitmproxy
 ``` 
 
+## Proxy Configuration
+### Termux
+Find out device IP address
+```
+$ ifconfig
+```
+![img1](img1.png)
