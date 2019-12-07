@@ -9,10 +9,10 @@
 ### AnLinux
 Click choose then pick Ubuntu (recommended for beginner) 
 ### Termux
-`$ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh`
+```$ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh```
 Setup sdcard access
-`pkg update && pkg install nano`
-`Nano start-ubuntu.sh`
+```pkg update && pkg install nano
+Nano start-ubuntu.sh```
 and uncomment this line:
 `#command+=" -b /sdcard"`
 Then start the VM
