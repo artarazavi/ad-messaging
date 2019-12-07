@@ -41,21 +41,21 @@ Find out device IP address
 ```
 $ ifconfig
 ```
-<img src="figures/img1.png" height="50%" width="50%" />
+![img1](figures/img1.png)
 ### Phone Settings
 Go to Wi-Fi and long press the network, this will open up network settings. 
 On this window choose Modify network.  
 Enter the IP address obtained earlier and set the port to be 8080 then click save.
-<img src="figures/img2.png" height="50%" width="50%" />
+![img2](figures/img2.png)
 ## Phone Browser
 Visit mitm.it
-<img src="figures/img5.png" height="50%" width="50%" />
+![img5](figures/img5.png)
 Choose Android.  
 Give the certificate a name then click Ok.  
-<img src="figures/img6.png" height="50%" width="50%" />
+![img6](figures/img6.png)
 ## ProxyDroid
 Enter the IP address and set the port to 8080
-<img src="figures/img3.png" height="50%" width="50%" />
+![img3](figures/img3.png)
 Enable DNS Proxy
-<img src="figures/img4.png" height="50%" width="50%" />
+![img4](figures/img4.png)
 Then turn on the Proxy Switch
